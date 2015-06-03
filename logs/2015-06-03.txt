@@ -532,3 +532,315 @@ Average: 0.0033352222222222, Longest: 0.009062, Shortest: 0.00049299999999997, T
 [2015-06-03 10:35:29]framework.session.initialize.after: server
 [2015-06-03 10:35:29]framework.router.dispatch.before: assets/plugins/autocomplete/usastates
 Average: 0.0036528888888889, Longest: 0.0088750000000001, Shortest: 0.00045299999999993, Total: 0.036501
+[2015-06-03 10:36:39]framework.configuration.initialize.before: ini
+[2015-06-03 10:36:39]framework.configuration.initialize.after: ini
+[2015-06-03 10:36:39]framework.database.initialize.before: 
+[2015-06-03 10:36:39]framework.database.initialize.after: mysql
+[2015-06-03 10:36:39]framework.cache.initialize.before: 
+[2015-06-03 10:36:39]framework.cache.initialize.after: memcached
+[2015-06-03 10:36:39]framework.session.initialize.before: 
+[2015-06-03 10:36:39]framework.session.initialize.after: server
+[2015-06-03 10:36:39]framework.router.dispatch.before: home/index
+[2015-06-03 10:36:39]framework.controller.construct.before: Home
+[2015-06-03 10:36:39]framework.view.construct.before: C:/wamp/www/Frudor/application/views/layouts/standard.html
+[2015-06-03 10:36:39]framework.view.construct.after: C:/wamp/www/Frudor/application/views/layouts/standard.html
+[2015-06-03 10:36:39]framework.view.construct.before: C:/wamp/www/Frudor/application/views/home/index.html
+[2015-06-03 10:36:39]framework.view.construct.after: C:/wamp/www/Frudor/application/views/home/index.html
+[2015-06-03 10:36:39]framework.controller.construct.after: Home
+[2015-06-03 10:36:39]framework.router.dispatch.after: home/index, home, index
+Average: 0.0021435, Longest: 0.006965, Shortest: 9.8000000000042E-5, Total: 0.034904
+[2015-06-03 10:36:40]framework.configuration.initialize.before: ini
+[2015-06-03 10:36:40]framework.configuration.initialize.after: ini
+[2015-06-03 10:36:40]framework.database.initialize.before: 
+[2015-06-03 10:36:40]framework.database.initialize.after: mysql
+[2015-06-03 10:36:40]framework.cache.initialize.before: 
+[2015-06-03 10:36:40]framework.cache.initialize.after: memcached
+[2015-06-03 10:36:40]framework.session.initialize.before: 
+[2015-06-03 10:36:40]framework.session.initialize.after: server
+[2015-06-03 10:36:40]framework.router.dispatch.before: assets/plugins/autocomplete/usastates
+Average: 0.0037498888888889, Longest: 0.009027, Shortest: 0.000461, Total: 0.039559
+[2015-06-03 10:36:46]framework.configuration.initialize.before: ini
+[2015-06-03 10:36:46]framework.configuration.initialize.after: ini
+[2015-06-03 10:36:46]framework.database.initialize.before: 
+[2015-06-03 10:36:46]framework.database.initialize.after: mysql
+[2015-06-03 10:36:46]framework.cache.initialize.before: 
+[2015-06-03 10:36:46]framework.cache.initialize.after: memcached
+[2015-06-03 10:36:46]framework.session.initialize.before: 
+[2015-06-03 10:36:46]framework.session.initialize.after: server
+[2015-06-03 10:36:46]framework.router.dispatch.before: assets/plugins/autocomplete/autocomplete-demo
+Average: 0.0028121111111111, Longest: 0.005926, Shortest: 0.00029, Total: 0.028715
+[2015-06-03 10:42:09]framework.configuration.initialize.before: ini
+[2015-06-03 10:42:09]framework.configuration.initialize.after: ini
+[2015-06-03 10:42:09]framework.database.initialize.before: 
+[2015-06-03 10:42:09]framework.database.initialize.after: mysql
+[2015-06-03 10:42:09]framework.cache.initialize.before: 
+[2015-06-03 10:42:09]framework.cache.initialize.after: memcached
+[2015-06-03 10:42:09]framework.session.initialize.before: 
+[2015-06-03 10:42:09]framework.session.initialize.after: server
+[2015-06-03 10:42:09]framework.router.dispatch.before: home/index
+[2015-06-03 10:42:09]framework.controller.construct.before: Home
+[2015-06-03 10:42:09]framework.view.construct.before: C:/wamp/www/Frudor/application/views/layouts/standard.html
+[2015-06-03 10:42:09]framework.view.construct.after: C:/wamp/www/Frudor/application/views/layouts/standard.html
+[2015-06-03 10:42:09]framework.view.construct.before: C:/wamp/www/Frudor/application/views/home/index.html
+[2015-06-03 10:42:09]framework.view.construct.after: C:/wamp/www/Frudor/application/views/home/index.html
+[2015-06-03 10:42:09]framework.controller.construct.after: Home
+[2015-06-03 10:42:09]framework.router.dispatch.after: home/index, home, index
+Average: 0.0022693125, Longest: 0.006287, Shortest: 0.000138, Total: 0.036814
+[2015-06-03 10:42:09]framework.configuration.initialize.before: ini
+[2015-06-03 10:42:09]framework.configuration.initialize.after: ini
+[2015-06-03 10:42:09]framework.database.initialize.before: 
+[2015-06-03 10:42:09]framework.database.initialize.after: mysql
+[2015-06-03 10:42:09]framework.cache.initialize.before: 
+[2015-06-03 10:42:09]framework.cache.initialize.after: memcached
+[2015-06-03 10:42:09]framework.session.initialize.before: 
+[2015-06-03 10:42:09]framework.session.initialize.after: server
+[2015-06-03 10:42:09]framework.router.dispatch.before: assets/plugins/autocomplete/usastates
+Average: 0.0043353333333333, Longest: 0.011678, Shortest: 0.000584, Total: 0.043369
+[2015-06-03 10:42:09]framework.configuration.initialize.before: ini
+[2015-06-03 10:42:09]framework.configuration.initialize.after: ini
+[2015-06-03 10:42:09]framework.database.initialize.before: 
+[2015-06-03 10:42:09]framework.database.initialize.after: mysql
+[2015-06-03 10:42:09]framework.cache.initialize.before: 
+[2015-06-03 10:42:09]framework.cache.initialize.after: memcached
+[2015-06-03 10:42:09]framework.session.initialize.before: 
+[2015-06-03 10:42:09]framework.session.initialize.after: server
+[2015-06-03 10:42:09]framework.router.dispatch.before: assets/plugins/autocomplete/autocomplete-demo
+Average: 0.0046761111111111, Longest: 0.012443, Shortest: 0.00049099999999999, Total: 0.048353
+[2015-06-03 10:42:17]framework.configuration.initialize.before: ini
+[2015-06-03 10:42:17]framework.configuration.initialize.after: ini
+[2015-06-03 10:42:17]framework.database.initialize.before: 
+[2015-06-03 10:42:17]framework.database.initialize.after: mysql
+[2015-06-03 10:42:17]framework.cache.initialize.before: 
+[2015-06-03 10:42:17]framework.cache.initialize.after: memcached
+[2015-06-03 10:42:17]framework.session.initialize.before: 
+[2015-06-03 10:42:17]framework.session.initialize.after: server
+[2015-06-03 10:42:17]framework.router.dispatch.before: home/index
+[2015-06-03 10:42:17]framework.controller.construct.before: Home
+[2015-06-03 10:42:17]framework.view.construct.before: C:/wamp/www/Frudor/application/views/layouts/standard.html
+[2015-06-03 10:42:17]framework.view.construct.after: C:/wamp/www/Frudor/application/views/layouts/standard.html
+[2015-06-03 10:42:17]framework.view.construct.before: C:/wamp/www/Frudor/application/views/home/index.html
+[2015-06-03 10:42:17]framework.view.construct.after: C:/wamp/www/Frudor/application/views/home/index.html
+[2015-06-03 10:42:17]framework.controller.construct.after: Home
+[2015-06-03 10:42:17]framework.router.dispatch.after: home/index, home, index
+Average: 0.002184375, Longest: 0.006979, Shortest: 9.9999999999989E-5, Total: 0.035146
+[2015-06-03 10:42:17]framework.configuration.initialize.before: ini
+[2015-06-03 10:42:17]framework.configuration.initialize.after: ini
+[2015-06-03 10:42:17]framework.database.initialize.before: 
+[2015-06-03 10:42:17]framework.database.initialize.after: mysql
+[2015-06-03 10:42:17]framework.cache.initialize.before: 
+[2015-06-03 10:42:17]framework.cache.initialize.after: memcached
+[2015-06-03 10:42:17]framework.session.initialize.before: 
+[2015-06-03 10:42:17]framework.session.initialize.after: server
+[2015-06-03 10:42:17]framework.router.dispatch.before: assets/plugins/autocomplete/autocomplete-demo
+Average: 0.0036751111111111, Longest: 0.008352, Shortest: 0.00048499999999996, Total: 0.036923
+[2015-06-03 10:42:17]framework.configuration.initialize.before: ini
+[2015-06-03 10:42:17]framework.configuration.initialize.after: ini
+[2015-06-03 10:42:17]framework.database.initialize.before: 
+[2015-06-03 10:42:17]framework.database.initialize.after: mysql
+[2015-06-03 10:42:17]framework.cache.initialize.before: 
+[2015-06-03 10:42:17]framework.cache.initialize.after: memcached
+[2015-06-03 10:42:17]framework.session.initialize.before: 
+[2015-06-03 10:42:17]framework.session.initialize.after: server
+[2015-06-03 10:42:17]framework.router.dispatch.before: assets/plugins/autocomplete/usastates
+Average: 0.0043376666666667, Longest: 0.012757, Shortest: 0.00032799999999999, Total: -0.954957
+[2015-06-03 10:42:18]framework.configuration.initialize.before: ini
+[2015-06-03 10:42:18]framework.configuration.initialize.after: ini
+[2015-06-03 10:42:18]framework.database.initialize.before: 
+[2015-06-03 10:42:18]framework.database.initialize.after: mysql
+[2015-06-03 10:42:18]framework.cache.initialize.before: 
+[2015-06-03 10:42:18]framework.cache.initialize.after: memcached
+[2015-06-03 10:42:18]framework.session.initialize.before: 
+[2015-06-03 10:42:18]framework.session.initialize.after: server
+[2015-06-03 10:42:18]framework.router.dispatch.before: home/index
+[2015-06-03 10:42:18]framework.controller.construct.before: Home
+[2015-06-03 10:42:18]framework.view.construct.before: C:/wamp/www/Frudor/application/views/layouts/standard.html
+[2015-06-03 10:42:18]framework.view.construct.after: C:/wamp/www/Frudor/application/views/layouts/standard.html
+[2015-06-03 10:42:18]framework.view.construct.before: C:/wamp/www/Frudor/application/views/home/index.html
+[2015-06-03 10:42:18]framework.view.construct.after: C:/wamp/www/Frudor/application/views/home/index.html
+[2015-06-03 10:42:18]framework.controller.construct.after: Home
+[2015-06-03 10:42:18]framework.router.dispatch.after: home/index, home, index
+Average: 0.0019631875, Longest: 0.006976, Shortest: 9.4999999999956E-5, Total: 0.031651
+[2015-06-03 10:42:18]framework.configuration.initialize.before: ini
+[2015-06-03 10:42:18]framework.configuration.initialize.after: ini
+[2015-06-03 10:42:18]framework.database.initialize.before: 
+[2015-06-03 10:42:18]framework.database.initialize.after: mysql
+[2015-06-03 10:42:18]framework.cache.initialize.before: 
+[2015-06-03 10:42:18]framework.cache.initialize.after: memcached
+[2015-06-03 10:42:18]framework.session.initialize.before: 
+[2015-06-03 10:42:18]framework.session.initialize.after: server
+[2015-06-03 10:42:18]framework.router.dispatch.before: assets/plugins/autocomplete/usastates
+Average: 0.0039001111111111, Longest: 0.0090749999999999, Shortest: 0.00049100000000002, Total: 0.03964
+[2015-06-03 10:42:18]framework.configuration.initialize.before: ini
+[2015-06-03 10:42:18]framework.configuration.initialize.after: ini
+[2015-06-03 10:42:18]framework.database.initialize.before: 
+[2015-06-03 10:42:18]framework.database.initialize.after: mysql
+[2015-06-03 10:42:18]framework.cache.initialize.before: 
+[2015-06-03 10:42:18]framework.cache.initialize.after: memcached
+[2015-06-03 10:42:18]framework.session.initialize.before: 
+[2015-06-03 10:42:18]framework.session.initialize.after: server
+[2015-06-03 10:42:18]framework.router.dispatch.before: assets/plugins/autocomplete/autocomplete-demo
+Average: 0.0043154444444444, Longest: 0.01074, Shortest: 0.000467, Total: 0.04429
+[2015-06-03 10:42:21]framework.configuration.initialize.before: ini
+[2015-06-03 10:42:21]framework.configuration.initialize.after: ini
+[2015-06-03 10:42:21]framework.database.initialize.before: 
+[2015-06-03 10:42:21]framework.database.initialize.after: mysql
+[2015-06-03 10:42:21]framework.cache.initialize.before: 
+[2015-06-03 10:42:21]framework.cache.initialize.after: memcached
+[2015-06-03 10:42:21]framework.session.initialize.before: 
+[2015-06-03 10:42:21]framework.session.initialize.after: server
+[2015-06-03 10:42:21]framework.router.dispatch.before: home/index
+[2015-06-03 10:42:21]framework.controller.construct.before: Home
+[2015-06-03 10:42:21]framework.view.construct.before: C:/wamp/www/Frudor/application/views/layouts/standard.html
+[2015-06-03 10:42:21]framework.view.construct.after: C:/wamp/www/Frudor/application/views/layouts/standard.html
+[2015-06-03 10:42:21]framework.view.construct.before: C:/wamp/www/Frudor/application/views/home/index.html
+[2015-06-03 10:42:21]framework.view.construct.after: C:/wamp/www/Frudor/application/views/home/index.html
+[2015-06-03 10:42:21]framework.controller.construct.after: Home
+[2015-06-03 10:42:21]framework.router.dispatch.after: home/index, home, index
+Average: 0.0021528125, Longest: 0.007088, Shortest: 9.5000000000005E-5, Total: 0.034635
+[2015-06-03 10:42:21]framework.configuration.initialize.before: ini
+[2015-06-03 10:42:21]framework.configuration.initialize.after: ini
+[2015-06-03 10:42:21]framework.database.initialize.before: 
+[2015-06-03 10:42:21]framework.database.initialize.after: mysql
+[2015-06-03 10:42:21]framework.cache.initialize.before: 
+[2015-06-03 10:42:21]framework.cache.initialize.after: memcached
+[2015-06-03 10:42:21]framework.session.initialize.before: 
+[2015-06-03 10:42:21]framework.session.initialize.after: server
+[2015-06-03 10:42:21]framework.router.dispatch.before: assets/plugins/autocomplete/usastates
+Average: 0.0034178888888889, Longest: 0.007712, Shortest: 0.00043700000000001, Total: 0.034581
+[2015-06-03 10:42:21]framework.configuration.initialize.before: ini
+[2015-06-03 10:42:21]framework.configuration.initialize.after: ini
+[2015-06-03 10:42:21]framework.database.initialize.before: 
+[2015-06-03 10:42:21]framework.database.initialize.after: mysql
+[2015-06-03 10:42:21]framework.cache.initialize.before: 
+[2015-06-03 10:42:21]framework.cache.initialize.after: memcached
+[2015-06-03 10:42:21]framework.session.initialize.before: 
+[2015-06-03 10:42:21]framework.session.initialize.after: server
+[2015-06-03 10:42:21]framework.router.dispatch.before: assets/plugins/autocomplete/autocomplete-demo
+Average: 0.0044624444444444, Longest: 0.010497, Shortest: 0.00046499999999999, Total: 0.045637
+[2015-06-03 10:47:08]framework.configuration.initialize.before: ini
+[2015-06-03 10:47:08]framework.configuration.initialize.after: ini
+[2015-06-03 10:47:08]framework.database.initialize.before: 
+[2015-06-03 10:47:08]framework.database.initialize.after: mysql
+[2015-06-03 10:47:08]framework.cache.initialize.before: 
+[2015-06-03 10:47:08]framework.cache.initialize.after: memcached
+[2015-06-03 10:47:08]framework.session.initialize.before: 
+[2015-06-03 10:47:08]framework.session.initialize.after: server
+[2015-06-03 10:47:08]framework.router.dispatch.before: home/index
+[2015-06-03 10:47:08]framework.controller.construct.before: Home
+[2015-06-03 10:47:08]framework.view.construct.before: C:/wamp/www/Frudor/application/views/layouts/standard.html
+[2015-06-03 10:47:08]framework.view.construct.after: C:/wamp/www/Frudor/application/views/layouts/standard.html
+[2015-06-03 10:47:08]framework.view.construct.before: C:/wamp/www/Frudor/application/views/home/index.html
+[2015-06-03 10:47:08]framework.view.construct.after: C:/wamp/www/Frudor/application/views/home/index.html
+[2015-06-03 10:47:08]framework.controller.construct.after: Home
+[2015-06-03 10:47:08]framework.router.dispatch.after: home/index, home, index
+Average: 0.00253575, Longest: 0.008026, Shortest: 0.000138, Total: 0.041096
+[2015-06-03 10:47:08]framework.configuration.initialize.before: ini
+[2015-06-03 10:47:08]framework.configuration.initialize.after: ini
+[2015-06-03 10:47:08]framework.database.initialize.before: 
+[2015-06-03 10:47:08]framework.database.initialize.after: mysql
+[2015-06-03 10:47:08]framework.cache.initialize.before: 
+[2015-06-03 10:47:08]framework.cache.initialize.after: memcached
+[2015-06-03 10:47:08]framework.session.initialize.before: 
+[2015-06-03 10:47:08]framework.session.initialize.after: server
+[2015-06-03 10:47:08]framework.router.dispatch.before: images/item/tp/Image00011
+Average: 0.0049416666666667, Longest: 0.017869, Shortest: 0.00045500000000004, Total: 0.048057
+[2015-06-03 10:47:08]framework.configuration.initialize.before: ini
+[2015-06-03 10:47:08]framework.configuration.initialize.after: ini
+[2015-06-03 10:47:08]framework.database.initialize.before: 
+[2015-06-03 10:47:08]framework.database.initialize.after: mysql
+[2015-06-03 10:47:08]framework.cache.initialize.before: 
+[2015-06-03 10:47:08]framework.cache.initialize.after: memcached
+[2015-06-03 10:47:08]framework.session.initialize.before: 
+[2015-06-03 10:47:08]framework.session.initialize.after: server
+[2015-06-03 10:47:08]framework.router.dispatch.before: images/item/tp/Image00006
+Average: 0.0057828888888889, Longest: 0.015297, Shortest: 0.00053700000000001, Total: 0.05721
+[2015-06-03 10:47:08]framework.configuration.initialize.before: ini
+[2015-06-03 10:47:08]framework.configuration.initialize.after: ini
+[2015-06-03 10:47:08]framework.database.initialize.before: 
+[2015-06-03 10:47:08]framework.database.initialize.after: mysql
+[2015-06-03 10:47:08]framework.cache.initialize.before: 
+[2015-06-03 10:47:08]framework.cache.initialize.after: memcached
+[2015-06-03 10:47:08]framework.session.initialize.before: 
+[2015-06-03 10:47:08]framework.session.initialize.after: server
+[2015-06-03 10:47:08]framework.router.dispatch.before: images/item/tp/Image00022
+Average: 0.0067575555555556, Longest: 0.024653, Shortest: 0.00146, Total: 0.06535
+[2015-06-03 10:47:08]framework.configuration.initialize.before: ini
+[2015-06-03 10:47:08]framework.configuration.initialize.after: ini
+[2015-06-03 10:47:08]framework.database.initialize.before: 
+[2015-06-03 10:47:08]framework.database.initialize.after: mysql
+[2015-06-03 10:47:08]framework.cache.initialize.before: 
+[2015-06-03 10:47:08]framework.cache.initialize.after: memcached
+[2015-06-03 10:47:08]framework.session.initialize.before: 
+[2015-06-03 10:47:08]framework.session.initialize.after: server
+[2015-06-03 10:47:08]framework.router.dispatch.before: public/images/bg3
+Average: 0.0043578888888889, Longest: 0.014771, Shortest: 0.00050500000000009, Total: 0.04744
+[2015-06-03 10:47:08]framework.configuration.initialize.before: ini
+[2015-06-03 10:47:08]framework.configuration.initialize.after: ini
+[2015-06-03 10:47:08]framework.database.initialize.before: 
+[2015-06-03 10:47:08]framework.database.initialize.after: mysql
+[2015-06-03 10:47:08]framework.cache.initialize.before: 
+[2015-06-03 10:47:08]framework.cache.initialize.after: memcached
+[2015-06-03 10:47:08]framework.session.initialize.before: 
+[2015-06-03 10:47:08]framework.session.initialize.after: server
+[2015-06-03 10:47:08]framework.router.dispatch.before: images/item/tp/Image00013
+Average: 0.0085256666666667, Longest: 0.038822, Shortest: 0.00042199999999992, Total: 0.093642
+[2015-06-03 10:47:08]framework.configuration.initialize.before: ini
+[2015-06-03 10:47:08]framework.configuration.initialize.after: ini
+[2015-06-03 10:47:08]framework.database.initialize.before: 
+[2015-06-03 10:47:08]framework.database.initialize.after: mysql
+[2015-06-03 10:47:08]framework.cache.initialize.before: 
+[2015-06-03 10:47:08]framework.cache.initialize.after: memcached
+[2015-06-03 10:47:08]framework.session.initialize.before: 
+[2015-06-03 10:47:08]framework.session.initialize.after: server
+[2015-06-03 10:47:08]framework.router.dispatch.before: assets/plugins/autocomplete/autocomplete-demo
+Average: 0.0069432222222222, Longest: 0.025903, Shortest: 0.00052200000000002, Total: 0.072286
+[2015-06-03 10:47:08]framework.configuration.initialize.before: ini
+[2015-06-03 10:47:08]framework.configuration.initialize.after: ini
+[2015-06-03 10:47:08]framework.database.initialize.before: 
+[2015-06-03 10:47:08]framework.database.initialize.after: mysql
+[2015-06-03 10:47:08]framework.cache.initialize.before: 
+[2015-06-03 10:47:08]framework.cache.initialize.after: memcached
+[2015-06-03 10:47:08]framework.session.initialize.before: 
+[2015-06-03 10:47:08]framework.session.initialize.after: server
+[2015-06-03 10:47:09]framework.router.dispatch.before: images/site/app
+Average: -0.10282222222222, Longest: 0.01084, Shortest: -0.963444, Total: -0.919902
+[2015-06-03 10:47:08]framework.configuration.initialize.before: ini
+[2015-06-03 10:47:08]framework.configuration.initialize.after: ini
+[2015-06-03 10:47:08]framework.database.initialize.before: 
+[2015-06-03 10:47:08]framework.database.initialize.after: mysql
+[2015-06-03 10:47:08]framework.cache.initialize.before: 
+[2015-06-03 10:47:08]framework.cache.initialize.after: memcached
+[2015-06-03 10:47:08]framework.session.initialize.before: 
+[2015-06-03 10:47:08]framework.session.initialize.after: server
+[2015-06-03 10:47:09]framework.router.dispatch.before: assets/plugins/autocomplete/usastates
+Average: -0.099585222222222, Longest: 0.020211, Shortest: -0.950954, Total: -0.89152
+[2015-06-03 10:47:08]framework.configuration.initialize.before: ini
+[2015-06-03 10:47:08]framework.configuration.initialize.after: ini
+[2015-06-03 10:47:08]framework.database.initialize.before: 
+[2015-06-03 10:47:08]framework.database.initialize.after: mysql
+[2015-06-03 10:47:08]framework.cache.initialize.before: 
+[2015-06-03 10:47:08]framework.cache.initialize.after: memcached
+[2015-06-03 10:47:08]framework.session.initialize.before: 
+[2015-06-03 10:47:08]framework.session.initialize.after: server
+[2015-06-03 10:47:09]framework.router.dispatch.before: images/add2
+Average: -0.10125533333333, Longest: 0.012521, Shortest: -0.945437, Total: -0.905359
+[2015-06-03 10:47:08]framework.configuration.initialize.before: ini
+[2015-06-03 10:47:08]framework.configuration.initialize.after: ini
+[2015-06-03 10:47:09]framework.database.initialize.before: 
+[2015-06-03 10:47:09]framework.database.initialize.after: mysql
+[2015-06-03 10:47:09]framework.cache.initialize.before: 
+[2015-06-03 10:47:09]framework.cache.initialize.after: memcached
+[2015-06-03 10:47:09]framework.session.initialize.before: 
+[2015-06-03 10:47:09]framework.session.initialize.after: server
+[2015-06-03 10:47:09]framework.router.dispatch.before: images/bg
+Average: -0.10505166666667, Longest: 0.025001, Shortest: -0.996161, Total: -0.941487
+[2015-06-03 10:47:09]framework.configuration.initialize.before: ini
+[2015-06-03 10:47:09]framework.configuration.initialize.after: ini
+[2015-06-03 10:47:09]framework.database.initialize.before: 
+[2015-06-03 10:47:09]framework.database.initialize.after: mysql
+[2015-06-03 10:47:09]framework.cache.initialize.before: 
+[2015-06-03 10:47:09]framework.cache.initialize.after: memcached
+[2015-06-03 10:47:09]framework.session.initialize.before: 
+[2015-06-03 10:47:09]framework.session.initialize.after: server
+[2015-06-03 10:47:09]framework.router.dispatch.before: public/images/arrow-right
+Average: -0.10474222222222, Longest: 0.028562, Shortest: -0.989418, Total: -0.938761
