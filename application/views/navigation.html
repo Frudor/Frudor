@@ -1,3 +1,52 @@
+<!-- Cart Modal starts -->
+			<div class="modal fade" id="checkOut" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h4>Shopping Cart</h4>
+						</div>
+						<div class="modal-body">
+							<table class="table table-striped tcart">
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Quantity</th>
+										<th>Price</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><a href="item-single.html">Wedding Ring</a></td>
+										<td>2</td>
+										<td>$199.90</td>
+									</tr>
+									<tr>
+										<td><a href="item-single.html">Study Chair</a></td>
+										<td>1</td>
+										<td>$19.95</td>
+									</tr>
+									<tr>
+										<td><a href="item-single.html">Lady Full Boots</a></td>
+										<td>4</td>
+										<td>$126.44</td>
+									</tr>
+									<tr>
+										<th></th>
+										<th>Total</th>
+										<th>$346.29</th>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="modal-footer">
+							<a href="#" class="btn" data-dismiss="modal" aria-hidden="true">Continue Shopping</a>
+							<a href="checkout.html" class="btn btn-danger">Checkout</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ Cart modal ends -->
 <div class="header">
     <nav class="navbar navbar-site navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -11,9 +60,14 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="login.html">Login</a></li>
                     <li><a href="signup.html">Signup</a></li>
+                    <li class="dd-menu">
+					<a href="#" class="dd-link"><i class="fa fa-shopping-cart"></i>&nbsp; My cart <span>(3)</span></a>
+				    </li>
                 </ul>
+              
+              
             </div>
-
+            
         </div>
 
     </nav>

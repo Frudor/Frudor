@@ -3,14 +3,17 @@
   height: 60px !important;
 }
 
-.container {
-  
-}
-
 .intro {
   height: 140px !important;
   margin-top: 60px !important;
   margin-bottom: 0 !important;
+}
+@media (min-width:786px)
+{
+.navbar-right
+  {
+    margin-top: 10px !important;
+  }
 }
 @media (max-width: 767px)
 {
@@ -48,7 +51,15 @@
   padding: 4px 10px;
 }
 
+.navbar-right>li:nth-child(2){border-right: 2px solid gray}
+
 .navbar-nav>li>a
 {
   font-size: 1.5em;
+  padding: 10px !important;
+}
+
+#autocomplete-ajax:focus
+{
+  border: 2px solid lightGreen;
 }
