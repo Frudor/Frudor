@@ -26,14 +26,24 @@ body{
   .navbar-site {
       min-height: 60px;
   }
+  nav>div {
+  background-color: white;
+}
   .navbar-site .navbar-toggle
   {
-    margin: 10px !important;/*Could be LETHAL in some devices*/
+    margin: 10px 4px !important;/*Could be LETHAL in some devices*/
   }
   .navbar-header
   {
     border-bottom: none;
+    min-height: 0 !important;
   }
+
+  .navbar-right>li:nth-child(2)
+  {
+    border-right: none !important;
+  }
+
   .search-row
   {
     width: 70% !important;
@@ -59,6 +69,11 @@ body{
 {
   font-size: 1.4em;
   padding: 10px !important;
+}
+
+#autocomplete-ajax
+{
+  border: 2px solid darkGray;
 }
 
 #autocomplete-ajax:focus
@@ -98,4 +113,45 @@ body{
 
 .copyright {
   margin-bottom: 4px;
+}
+
+#pincodeMH {
+  text-align: center;
+}
+
+.modal-header>h3
+{
+  font-family: 'Roboto';
+}
+
+.modal-body>p
+{
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Roboto';
+  font-size: 1.5em;
+}
+
+.modal-footer {
+  text-align: center
+}
+
+.modal-footer>button {
+  background-color: lightgreen;
+}
+#carCont {
+  margin-top: 80px;
+  width: 100%;
+  height: 300px;
+}
+
+#myCarousel {
+  height: 100%;
+  width: 100%;
+}
+
+.item>img
+{
+  height: 100%;
+  width: auto;
 }
