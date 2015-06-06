@@ -14,6 +14,10 @@ $(document).ready(function(){
     $(".intro").show();
   }
   
+  $("#myModal").on('hidden.bs.modal', function(){
+    $(".intro").show();
+  });
+  
   $("#btn-search").click(function(){
     //store pincode
     localStorage.setItem("pincode",$("#autocomplete-ajax").val());

@@ -161,7 +161,13 @@ body{
 .icon-append
 {
   left: 25% !important;
-  top: 15% !important;
+  top: 12% !important;
+}
+
+#myModal .icon-append
+{
+  left: 18% !important;
+  top: 25% !important;
 }
 
 #btn-search
@@ -176,13 +182,12 @@ body{
   width: 100%;
   text-align: center;
 }
-.row2i {
-  
-}
 
-.price {
+.price 
+{
   margin-bottom: 1em;
 }
+
 .page-info
 {
   padding: 0 0 1em;
