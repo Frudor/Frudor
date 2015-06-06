@@ -77,7 +77,8 @@ body{
 
 #autocomplete-ajax
 {
-  border: 2px solid darkGray !important;
+  border: 2px solid;
+  border-color: darkgray;
   border-radius: 5px;
   width: 150px;
   margin: 0 auto !important;
@@ -86,7 +87,7 @@ body{
 
 #autocomplete-ajax:focus
 {
-  border-color: lightGreen !important;
+  border-color: lightskyblue !important;
 }
 
 .footer-nav {

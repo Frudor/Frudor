@@ -2,7 +2,7 @@ var _0xbdcb=["\x6C\x69\x6E\x6B\x53\x63\x72\x6F\x6C\x6C","\x73\x63\x72\x6F\x6C\x6
 
 //Custom scripts
 $(document).ready(function(){
-  $(".intro").hide();
+  $("li>#autocomplete-ajax, li>#btn-search").hide();
   if(!localStorage.getItem("visited")&&!localStorage.getItem("pincode"))
   {
     //First visit
@@ -11,28 +11,28 @@ $(document).ready(function(){
   }
   else
   {
-    $(".intro").show();
+    $("#autocomplete-ajax, #btn-search").show();
   }
   
   $("#myModal").on('hidden.bs.modal', function(){
-    $(".intro").show();
+    $("#autocomplete-ajax, #btn-search").show();
   });
   
-  $("#btn-search").click(function(){
-    //store pincode
-    localStorage.setItem("pincode",$("#autocomplete-ajax").val());
-    console.log("here");
-    $(".intro").hide();
-    $("#pincode_para").css("display","block");
+  $(".btn-search").click(function(){
+    
     if(0/*pincode is valid*/)
     {
-    $("span#pincode_show").html(localStorage.getItem("pincode"));
+      //store pincode
+      localStorage.setItem("pincode",$("#autocomplete-ajax").val());
+      $(".searchtag-input").css("borderColor","lightgreen");
+      $("#myModal").modal("hide");
+      $(".intro").html("yeah");
     }
     else
     {
-    $(".intro").show();
-    $("#pincode_para").css("margin","20px 0");
-    $("span#pincode_show").html("invalid");
+      $(".searchtag-input").css("borderColor","red");
+      $(".searchtag-input").val("");
+      $(".searchtag-input").attr("placeholder","Invalid!");
     }
   });
 });
