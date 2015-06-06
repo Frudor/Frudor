@@ -1,21 +1,19 @@
-<!--<div class="intro">
+<div class="intro">
     <div class="dtable hw100">
         <div class="dtable-cell hw100">
             <div class="container text-center">
-                <!--<h1 class="intro-title animated fadeInDown"> Find Classified Ads </h1>
-                <p class="sub animateme fittext3 animated fadeIn"> Find local classified ads on bootclassified in Minutes </p>
                 <div class="row search-row animated fadeInUp">
                     <div class="col-lg-12 search-col relative locationicon">
                         <i class="icon-location-2 icon-append"></i>
-                        <input type="text" name="country" id="autocomplete-ajax" class="form-control locinput input-rel searchtag-input has-icon" placeholder="City/Zipcode..." value="">
-                        <br>
-                        <button class="btn btn-primary btn-search btn-block"><i class="icon-search"></i><strong>Find</strong></button>
+                        <input type="text" maxlength="6" name="city" id="autocomplete-ajax" class="form-control locinput input-rel searchtag-input has-icon" placeholder="Enter Your City/Zipcode" value="" required><button type="button" class="btn btn-default" id="btn-search"><i class="icon-search"></i>Find now</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>-->
+</div>
+
+<p id="pincode_para">Your Zip Code is <span id="pincode_show"></span></p>
 
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">
@@ -32,7 +30,7 @@
         <div class="row search-row animated fadeInUp">
                     <div class="col-lg-12 search-col relative locationicon">
                         <i class="icon-location-2 icon-append"></i>
-                        <input type="text" name="country" id="autocomplete-ajax" class="form-control locinput input-rel searchtag-input has-icon" placeholder="Enter Your City/Zipcode..." value="">
+                        <input type="text" maxlength="6" min="120001" name="city" id="autocomplete-ajax" class="form-control locinput input-rel searchtag-input has-icon" placeholder="Enter Your City/Zipcode" value="" required>
                     </div>
          </div>
       </div>
@@ -115,44 +113,72 @@
                         <div class="col-lg-12">
                             <div class="no-margin item-carousel owl-carousel owl-theme">
                                 <!--Item-->
-                                <div class="item"> <a href="ads-details.html">
+                                <div class="item"><div> <a href="ads-details.html">
                                         <span class="item-carousel-thumb"> <img class="img-responsive" src="{echo CDN}images/item/tp/Image00011.jpg" alt="img"> </span>
                                         <span class="item-name"> Lorem ipsum dolor sit amet </span>
                                         <span class="price"> $ 260 </span></a> </div>
+                              <div><a href="ads-details.html">
+                                        <span class="item-carousel-thumb"> <img class="item-img" src="{echo CDN}images/item/FreeGreatPicture.com-46407-nexus-4-starts-at-199.jpg" alt="img"> </span>
+                                        <span class="item-name"> te feugait nulla facilisi </span>
+                                        <span class="price"> $ 251 </span></a></div></div>
                               
                                 <!--Item-->
-                                <div class="item"> <a href="ads-details.html">
+                                <div class="item"> <div><a href="ads-details.html">
                                         <span class="item-carousel-thumb"> <img class="item-img" src="{echo CDN}images/item/tp/Image00006.jpg" alt="img"> </span>
                                         <span class="item-name"> consectetuer adipiscing elit </span>
                                         <span class="price"> $ 240 </span></a> </div>
+                              <div><a href="ads-details.html">
+                                        <span class="item-carousel-thumb"> <img class="item-img" src="{echo CDN}images/item/FreeGreatPicture.com-46407-nexus-4-starts-at-199.jpg" alt="img"> </span>
+                                        <span class="item-name"> te feugait nulla facilisi </span>
+                                        <span class="price"> $ 251 </span></a></div></div>
                               
                                 <!--Item-->
-                                <div class="item"><a href="ads-details.html">
+                                <div class="item"><div><a href="ads-details.html">
                                         <span class="item-carousel-thumb"> <img class="item-img" src="{echo CDN}images/item/tp/Image00022.jpg" alt="img"> </span>
                                         <span class="item-name"> sed diam nonummy </span>
                                         <span class="price"> $ 140</span></a></div>
+                              <div><a href="ads-details.html">
+                                        <span class="item-carousel-thumb"> <img class="item-img" src="{echo CDN}images/item/FreeGreatPicture.com-46407-nexus-4-starts-at-199.jpg" alt="img"> </span>
+                                        <span class="item-name"> te feugait nulla facilisi </span>
+                                        <span class="price"> $ 251 </span></a></div></div>
                               
                                 <!--Item-->
-                                <div class="item"><a href="ads-details.html">
+                                <div class="item"><div><a href="ads-details.html">
                                         <span class="item-carousel-thumb"> <img class="item-img" src="{echo CDN}images/item/tp/Image00013.jpg" alt="img"> </span><span class="item-name"> feugiat nulla facilisis </span> <span class="price"> $ 140 </span></a></div>
+                              <div><a href="ads-details.html">
+                                        <span class="item-carousel-thumb"> <img class="item-img" src="{echo CDN}images/item/FreeGreatPicture.com-46407-nexus-4-starts-at-199.jpg" alt="img"> </span>
+                                        <span class="item-name"> te feugait nulla facilisi </span>
+                                        <span class="price"> $ 251 </span></a></div></div>
                               
                                 <!--Item-->
-                                <div class="item"><a href="ads-details.html">
+                                <div class="item"><div><a href="ads-details.html">
                                         <span class="item-carousel-thumb"> <img class="item-img" src="{echo CDN}images/item/FreeGreatPicture.com-46404-google-drops-nexus-4-by-100-offers-15-day-price-protection-refund.jpg" alt="img"> </span>
                                         <span class="item-name"> praesent luptatum zzril </span>
                                         <span class="price"> $ 220 </span></a></div>
+                              <div><a href="ads-details.html">
+                                        <span class="item-carousel-thumb"> <img class="item-img" src="{echo CDN}images/item/FreeGreatPicture.com-46407-nexus-4-starts-at-199.jpg" alt="img"> </span>
+                                        <span class="item-name"> te feugait nulla facilisi </span>
+                                        <span class="price"> $ 251 </span></a></div></div>
                               
                                 <!--Item-->
-                                <div class="item"><a href="ads-details.html">
+                                <div class="item"><div><a href="ads-details.html">
                                         <span class="item-carousel-thumb"> <img class="item-img" src="{echo CDN}images/item/FreeGreatPicture.com-46405-google-drops-price-of-nexus-4-smartphone.jpg" alt="img"></span> 
                                         <span class="item-name"> delenit augue duis dolore </span>
-                                        <span class="price"> $ 120 </span></a></div>
-                              
-                                <!--Item-->
-                                <div class="item"><a href="ads-details.html">
+                                        <span class="price"> $ 120 </span></a></div><div><a href="ads-details.html">
                                         <span class="item-carousel-thumb"> <img class="item-img" src="{echo CDN}images/item/FreeGreatPicture.com-46407-nexus-4-starts-at-199.jpg" alt="img"> </span>
                                         <span class="item-name"> te feugait nulla facilisi </span>
                                         <span class="price"> $ 251 </span></a></div>
+                              </div>
+                              
+                                <!--Item-->
+                                <div class="item"><div><a href="ads-details.html">
+                                        <span class="item-carousel-thumb"> <img class="item-img" src="{echo CDN}images/item/FreeGreatPicture.com-46407-nexus-4-starts-at-199.jpg" alt="img"> </span>
+                                        <span class="item-name"> te feugait nulla facilisi </span>
+                                        <span class="price"> $ 251 </span></a></div><div><a href="ads-details.html">
+                                        <span class="item-carousel-thumb"> <img class="item-img" src="{echo CDN}images/item/FreeGreatPicture.com-46407-nexus-4-starts-at-199.jpg" alt="img"> </span>
+                                        <span class="item-name"> te feugait nulla facilisi </span>
+                                        <span class="price"> $ 251 </span></a></div>
+                              </div>
                             </div>
                         </div>
                     </div>
